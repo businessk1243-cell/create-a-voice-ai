@@ -3,7 +3,7 @@
   "name": "create a voice ai",
   "createdAt": "2026-11-10T11:35:22.205Z",
   "filename": "bc4c9cf2-6a9d-4a66-b407-7e2ec551e1f7.json",
-  "geminiStarted": false,
+  "geminiStarted": true,
   "messages": [
     {
       "id": "8edea8e2-33e9-4eb0-a0f5-4283f9277f23",
@@ -15,6 +15,42 @@
       "parent_message_id": null,
       "created_at": "2026-11-10T12:37:17.566Z",
       "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "fd4f6938-56eb-4efb-b784-163498538380",
+      "role": "agent",
+      "content": "error: Eligibility check failed: Your current account is not eligible for Antigravity. To use Antigravity you must be 18 years old or older. If you think you are receiving this message in error, please ensure you have verified your age and try to log in again.\nEligibility check failed: Your current account is not eligible for Antigravity. To use Antigravity you must be 18 years old or older. If you think you are receiving this message in error, please ensure you have verified your age and try to log in again.",
+      "status": "error",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "8edea8e2-33e9-4eb0-a0f5-4283f9277f23",
+      "created_at": "2026-11-10T12:37:23.272Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "f1b195d3-70d5-44ce-bb9b-9d98171e00b6",
+      "role": "user",
+      "content": "4/0AUn6Hd-PsL5WGfmYpfaFFmx6VvPONF-tucvOX7uSejTUPT-Q5PXgXNEt22QV9qx_wNF-Rw",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-11-10T12:37:41.029Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "79eae423-9aba-4c67-95cb-12fc60ac3a9c",
+      "role": "agent",
+      "content": "error: Eligibility check failed: Your current account is not eligible for Antigravity. To use Antigravity you must be 18 years old or older. If you think you are receiving this message in error, please ensure you have verified your age and try to log in again.\nEligibility check failed: Your current account is not eligible for Antigravity. To use Antigravity you must be 18 years old or older. If you think you are receiving this message in error, please ensure you have verified your age and try to log in again.",
+      "status": "error",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "f1b195d3-70d5-44ce-bb9b-9d98171e00b6",
+      "created_at": "2026-11-10T12:37:44.417Z",
+      "sender": "macOS",
       "is_cancelled": false
     }
   ]
